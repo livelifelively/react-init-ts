@@ -1,5 +1,6 @@
 import {IAppConfig} from './interfaces';
-  
+
+// index.ts with actual configurations is gitignored. this file lists all the options that should be configured.
 const config: IAppConfig = {
   firebase: {
     apiKey: 'FIREBASE_API_KEY_HERE',
