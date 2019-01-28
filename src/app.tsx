@@ -23,7 +23,6 @@ import {
   ProfilePage
 } from './containers';
 
-
 class App extends Component {
   render() {
     return (
