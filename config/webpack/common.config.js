@@ -1,10 +1,12 @@
-
 const {resolve} = require('path');
 const webpack = require('webpack');
 
 module.exports = {
   resolve: {
-    extensions: ['.ts', '.tsx', '.js', '.jsx']
+    extensions: ['.ts', '.tsx', '.js', '.jsx'],
+    alias: {
+      '@': resolve(__dirname, '../../')
+    }
   },
   context: resolve(__dirname, '../../src'),
   module: {

@@ -7,7 +7,6 @@ by firebase.
 
 * React 16
 * TypeScript
-* PropTypes
 * Webpack 4
 * Babel
 * Staging ES Next Features
